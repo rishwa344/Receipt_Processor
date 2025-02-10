@@ -1,0 +1,7 @@
+com/example/Receipt/Processor/repository/ReceiptRepository.class
+com/example/Receipt/Processor/services/ReceiptServices.class
+com/example/Receipt/Processor/model/Item.class
+com/example/Receipt/Processor/model/Receipt.class
+com/example/Receipt/Processor/controller/ReceiptController.class
+com/example/Receipt/Processor/validator/ReceiptValidator.class
+com/example/Receipt/Processor/ReceiptProcessorApplication.class

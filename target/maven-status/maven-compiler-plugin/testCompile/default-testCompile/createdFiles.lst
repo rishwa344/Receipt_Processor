@@ -1,0 +1,5 @@
+com/example/Receipt/Processor/services/ReceiptServicesTest.class
+com/example/Receipt/Processor/controller/ReceiptControllerTest.class
+com/example/Receipt/Processor/validator/ReceiptValidatorTest.class
+com/example/Receipt/Processor/repository/ReceiptRepositoryTest.class
+com/example/Receipt/Processor/ReceiptProcessorApplicationTests.class

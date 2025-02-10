@@ -1,0 +1,7 @@
+/Users/rishwapatel/Desktop/Receipt-Processor/src/main/java/com/example/Receipt/Processor/ReceiptProcessorApplication.java
+/Users/rishwapatel/Desktop/Receipt-Processor/src/main/java/com/example/Receipt/Processor/controller/ReceiptController.java
+/Users/rishwapatel/Desktop/Receipt-Processor/src/main/java/com/example/Receipt/Processor/model/Item.java
+/Users/rishwapatel/Desktop/Receipt-Processor/src/main/java/com/example/Receipt/Processor/model/Receipt.java
+/Users/rishwapatel/Desktop/Receipt-Processor/src/main/java/com/example/Receipt/Processor/repository/ReceiptRepository.java
+/Users/rishwapatel/Desktop/Receipt-Processor/src/main/java/com/example/Receipt/Processor/services/ReceiptServices.java
+/Users/rishwapatel/Desktop/Receipt-Processor/src/main/java/com/example/Receipt/Processor/validator/ReceiptValidator.java
