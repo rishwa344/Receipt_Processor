@@ -74,6 +74,14 @@ http://localhost:8080
 
 ---
 
+## 📽️ Screen Recording of Steps
+
+To see a step-by-step guide on how to run the API, check out this screen recording:
+
+**Watch here**[https://drive.google.com/file/d/1rtHh_IHPu2DUiN-lCuBiKdKKJyFQ3MKp/view?usp=sharing]
+
+---
+
 ## 📌 API Endpoints
 
 ### **Submit a Receipt**
