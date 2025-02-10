@@ -17,7 +17,6 @@ The **Receipt Processor** is a Spring Boot-based REST API designed to process re
 - **Java 17**
 - **Spring Boot 3+**
 - **Spring Web (REST API)**
-- **Spring Data JPA (if using a database)**
 - **JUnit & Mockito** for complete test coverage
 - **Docker** for containerization
 - **Maven** for dependency management
@@ -30,7 +29,7 @@ The **Receipt Processor** is a Spring Boot-based REST API designed to process re
 
 ```sh
 git clone https://github.com/rishwa344/Receipt_Processor
-cd receipt-processor
+cd Receipt_Processor
 ```
 
 ### **2️⃣ Build the Project**
@@ -109,17 +108,41 @@ http://localhost:8080
 }
 ```
 
+**Terminal Command to Test:**
+
+```sh
+curl -X POST "http://localhost:8080/receipts/process" -H "Content-Type: application/json" -d '{
+  "retailer": "Target",
+  "purchaseDate": "2022-01-01",
+  "purchaseTime": "13:01",
+  "items": [
+    { "shortDescription": "Mountain Dew 12PK", "price": "6.49" },
+    { "shortDescription": "Emils Cheese Pizza", "price": "12.25" },
+    { "shortDescription": "Knorr Creamy Chicken", "price": "1.26" },
+    { "shortDescription": "Doritos Nacho Cheese", "price": "3.35" },
+    { "shortDescription": "Klarbrunn 12-PK 12 FL OZ", "price": "12.00" }
+  ],
+  "total": "35.35"
+}'
+```
+
 **Response:**
 
 ```json
 {
-  "receiptId": "ad0a37d0-2642-4542-9986-7f3e60737689"
+  "id": "ad0a37d0-2642-4542-9986-7f3e60737689"
 }
 ```
 
 ### **Get Receipt Points**
 
-**Endpoint:** `GET /receipts/{receiptId}/points`\
+**Endpoint:** `GET /receipts/{id}/points`\
+**Terminal Command to Test:**
+
+```sh
+curl -X GET "http://localhost:8080/receipts/ad0a37d0-2642-4542-9986-7f3e60737689/points"
+```
+
 **Response:**
 
 ```json
